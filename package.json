@@ -1,0 +1,31 @@
+{
+  "name": "express-auditor-mongodb-store",
+  "version": "0.0.1",
+  "description": "Save express-auditor result into MongoDB",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jarthursantos/express-auditor-mongodb-store.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jarthursantos/express-auditor-mongodb-store/issues"
+  },
+  "homepage": "https://github.com/jarthursantos/express-auditor-mongodb-store#readme",
+  "devDependencies": {
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "mongodb": "^4.1.4"
+  }
+}
